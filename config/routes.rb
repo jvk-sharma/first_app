@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  #TODO: Where is your root Path?
+  #TODO: Where is your root Path? Come on get on with it!!!
   
   get 'first_pages/home'
 
