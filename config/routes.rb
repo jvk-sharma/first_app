@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  #TODO: Where is your root Path?
+  
   get 'first_pages/home'
 
   get 'first_pages/help'
