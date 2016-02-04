@@ -1,9 +1,10 @@
 Rails.application.routes.draw do
   #TODO: Where is your root Path? Come on get on with it!!!
   
-  get 'first_pages/home'
+ root 'first_pages#home'
 
   get 'first_pages/help'
+  get 'first_pages/about'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
